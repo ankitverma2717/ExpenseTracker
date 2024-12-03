@@ -1,0 +1,46 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ExpenseTracker" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary brand colors -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/colorOnPrimary</item>
+
+        <!-- Add these Material3 text appearance attributes -->
+        <item name="textAppearanceLabelSmall">@style/TextAppearance.Material3.LabelSmall</item>
+        <item name="textAppearanceLabelMedium">@style/TextAppearance.Material3.LabelMedium</item>
+        <item name="textAppearanceLabelLarge">@style/TextAppearance.Material3.LabelLarge</item>
+        <item name="textAppearanceBodySmall">@style/TextAppearance.Material3.BodySmall</item>
+        <item name="textAppearanceBodyMedium">@style/TextAppearance.Material3.BodyMedium</item>
+        <item name="textAppearanceBodyLarge">@style/TextAppearance.Material3.BodyLarge</item>
+
+        <!-- Update TextInputLayout style -->
+        <item name="textInputStyle">@style/Widget.Material3.TextInputLayout.OutlinedBox</item>
+
+        <!-- Secondary brand colors -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/colorOnSecondary</item>
+
+        <!-- Status bar color -->
+        <item name="android:statusBarColor">@color/colorPrimaryVariant</item>
+
+        <!-- Text colors -->
+        <item name="android:textColorPrimary">@color/text_color_primary</item>
+        <item name="android:textColorSecondary">@color/text_color_secondary</item>
+        <item name="android:textColorTertiary">@color/text_color_tertiary</item>
+
+        <!-- Other colors -->
+        <item name="android:colorBackground">@color/background</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+        <item name="android:colorControlNormal">@color/color_control_normal</item>
+
+        <!-- Add these items for TextInputLayout -->
+<!--        <item name="textInputStyle">@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox</item>-->
+<!--        <item name="textAppearanceSubtitle1">@style/TextAppearance.MaterialComponents.Subtitle1</item>-->
+<!--        <item name="textAppearanceCaption">@style/TextAppearance.MaterialComponents.Caption</item>-->
+<!--        <item name="editTextStyle">@style/Widget.MaterialComponents.TextInputEditText.OutlinedBox</item>-->
+    </style>
+
+    <style name="Theme.ExpenseTracker" parent="Base.Theme.ExpenseTracker" />
+</resources>
